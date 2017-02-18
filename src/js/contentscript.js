@@ -87,7 +87,7 @@
 // - https://github.com/chrisaljoudi/uBlock/issues/456
 
 if ( typeof vAPI !== 'object' ) {
-    throw new Error('uBlock Origin: aborting content scripts for ' + window.location);
+    throw new Error('WebFortified: aborting content scripts for ' + window.location);
 }
 vAPI.lock();
 

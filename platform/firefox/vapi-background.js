@@ -76,7 +76,7 @@ var deferUntil = function(testFn, mainFn, details) {
 /******************************************************************************/
 
 vAPI.app = {
-    name: 'uBlock Origin',
+    name: 'WebFortified',
     version: location.hash.slice(1)
 };
 
@@ -117,7 +117,7 @@ window.addEventListener('unload', function() {
 
     if ( cleanupTasks.length < expectedNumberOfCleanups ) {
         console.error(
-            'uBlock> Cleanup tasks performed: %s (out of %s)',
+            'WebFortified> Cleanup tasks performed: %s (out of %s)',
             cleanupTasks.length,
             expectedNumberOfCleanups
         );
@@ -1749,7 +1749,7 @@ vAPI.messaging.onMessage = (function() {
         }
 
         // Auxiliary process to main process: no handler
-        console.error('uBlock> messaging > unknown request: %o', data);
+        console.error('WebFortified> messaging > unknown request: %o', data);
 
         // Need to callback anyways in case caller expected an answer, or
         // else there is a memory leak on caller's side
@@ -1951,7 +1951,7 @@ var httpObserver = {
             try {
                 this.componentRegistrar.unregisterFactory(this.classID, Components.manager.getClassObject(this.classID, Ci.nsIFactory));
             } catch (ex) {
-                console.error('uBlock> httpObserver > unable to unregister stale instance: ', ex);
+                console.error('WebFortified> httpObserver > unable to unregister stale instance: ', ex);
             }
         }
 
@@ -2007,7 +2007,7 @@ var httpObserver = {
 
     // Pending request ring buffer:
     // +-------+-------+-------+-------+-------+-------+-------
-    // |0      |1      |2      |3      |4      |5      |...      
+    // |0      |1      |2      |3      |4      |5      |...
     // +-------+-------+-------+-------+-------+-------+-------
     //
     // URL to ring buffer index map:
@@ -2675,7 +2675,7 @@ vAPI.toolbarButton = {
             // Sanity check
             attempts = (attempts || 0) + 1;
             if ( attempts > 1/*000*/ ) {
-                console.error('uBlock0> resizePopupDelayed: giving up after too many attempts');
+                console.error('WebFortified> resizePopupDelayed: giving up after too many attempts');
                 return;
             }
 

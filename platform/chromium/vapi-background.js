@@ -169,7 +169,7 @@ vAPI.browserSettings = (function() {
                             scope: 'regular'
                         }, this.noopCallback);
                     } else {
-                        // Respect current stricter setting if any. 
+                        // Respect current stricter setting if any.
                         cpn.webRTCIPHandlingPolicy.get({}, function(details) {
                             var value = details.value === 'disable_non_proxied_udp' ?
                                 'disable_non_proxied_udp' :
@@ -724,7 +724,7 @@ vAPI.messaging.onPortMessage = (function() {
             wrapper = callbackWrapperFactory(portFrom, details, 1023);
         }
 
-        // Destination not found: 
+        // Destination not found:
         if ( portTo === undefined ) {
             if ( wrapper !== undefined ) {
                 wrapper.callback();
@@ -795,7 +795,7 @@ vAPI.messaging.onPortMessage = (function() {
         }
 
         // Auxiliary process to main process: no handler
-        console.error('uBlock> messaging > unknown request: %o', request);
+        console.error('WebFortified> messaging > unknown request: %o', request);
 
         // Need to callback anyways in case caller expected an answer, or
         // else there is a memory leak on caller's side

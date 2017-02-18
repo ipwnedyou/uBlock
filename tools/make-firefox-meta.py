@@ -86,7 +86,7 @@ if match:
         builttype = 'rc' + str(buildtype - 100)
     manifest['version'] = match.group(1) + builttype
 
-manifest['homepage'] = 'https://github.com/gorhill/uBlock'
+manifest['homepage'] = 'https://github.com/gorhill/uBlock' # TODO: REPLACE
 manifest['description'] = descriptions['en']
 del descriptions['en']
 manifest['localized'] = []

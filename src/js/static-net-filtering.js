@@ -1401,7 +1401,7 @@ FilterParser.prototype.parse = function(raw) {
         this.f = normalizeRegexSource(this.f);
         if ( this.f === '' ) {
             console.error(
-                "uBlock Origin> discarding bad regular expression-based network filter '%s': '%s'",
+                "WebFortified> discarding bad regular expression-based network filter '%s': '%s'",
                 raw,
                 normalizeRegexSource.message
             );
