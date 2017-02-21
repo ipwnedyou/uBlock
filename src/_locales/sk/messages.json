@@ -1,6 +1,6 @@
 {
   "extName":{
-    "message":"uBlock₀",
+    "message":"WebFortified",
     "description":"extension name."
   },
   "extShortDesc":{
@@ -8,8 +8,8 @@
     "description":"this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName":{
-    "message":"uBlock₀ — Ovládací panel",
-    "description":"English: uBlock₀ — Dashboard"
+    "message":"WebFortified — Ovládací panel",
+    "description":"English: WebFortified — Dashboard"
   },
   "settingsPageName":{
     "message":"Nastavenia",
@@ -32,7 +32,7 @@
     "description":"appears as tab name in dashboard"
   },
   "statsPageName":{
-    "message":"uBlock₀ — Zaznamenávač",
+    "message":"WebFortified — Zaznamenávač",
     "description":"Title for the logger window"
   },
   "aboutPageName":{
@@ -44,8 +44,8 @@
     "description":"Title for the advanced settings page"
   },
   "popupPowerSwitchInfo":{
-    "message":"Kliknutie: zakázať\/povoliť uBlock pre túto stránku.\n\nCtrl+kliknutie: zakázať uBlock len pre túto stránku.",
-    "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message":"Kliknutie: zakázať\/povoliť WebFortified pre túto stránku.\n\nCtrl+kliknutie: zakázať WebFortified len pre túto stránku.",
+    "description":"English: Click: disable\/enable WebFortified for this site.\n\nCtrl+click: disable WebFortified only on this page."
   },
   "popupBlockedRequestPrompt":{
     "message":"zablokované požiadavky",
@@ -284,7 +284,7 @@
     "description":"English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo":{
-    "message":"<p>Táto možnosť povoľuje analyzovanie a vynútenie <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">filtrov &ldquo;skrývajúcich prvky&rdquo; a kompatibilných s Adblock Plus<\/a>. Tieto filtre sú prevažne kozmetické. Skrývajú prvky webových stránok, ktoré sú vizuálne otravné a nemôžu byť zablokované filtrovaním sieťových požiadavkov.<\/p><p>Povolenie tejto funkcie zvyšujte nároky <i>uBlock<\/i>na pamäť.<\/p>",
+    "message":"<p>Táto možnosť povoľuje analyzovanie a vynútenie <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">filtrov &ldquo;skrývajúcich prvky&rdquo; a kompatibilných s Adblock Plus<\/a>. Tieto filtre sú prevažne kozmetické. Skrývajú prvky webových stránok, ktoré sú vizuálne otravné a nemôžu byť zablokované filtrovaním sieťových požiadavkov.<\/p><p>Povolenie tejto funkcie zvyšujte nároky <i>WebFortified<\/i>na pamäť.<\/p>",
     "description":"Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters":{
@@ -292,7 +292,7 @@
     "description":"This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo":{
-    "message":"<p>Generické kozmetické filtre sú tie kozmetické filtre, ktoré sú určené na použitie na všetkých webových stránkach.<p>Aj keď ich uBlock₀ používa efektívne, generické kozmetické filtre môžu stále prispievať k zaťaženiu pamäte a procesora na niektorých webových stránkach, a to najmä na veľkých a zložitých.<p>Zapnutím tejto možnosti sa zníži zaťaženie pamäte a procesora v dôsledku použitia generických kozmetických filtrov pre webové stránky, a taktiež sa znížia nároky samotného rozšírenia uBlock₀ na pamäť.<p>Odporúča sa povoliť túto možnosť na menej výkonných zariadení.",
+    "message":"<p>Generické kozmetické filtre sú tie kozmetické filtre, ktoré sú určené na použitie na všetkých webových stránkach.<p>Aj keď ich WebFortified používa efektívne, generické kozmetické filtre môžu stále prispievať k zaťaženiu pamäte a procesora na niektorých webových stránkach, a to najmä na veľkých a zložitých.<p>Zapnutím tejto možnosti sa zníži zaťaženie pamäte a procesora v dôsledku použitia generických kozmetických filtrov pre webové stránky, a taktiež sa znížia nároky samotného rozšírenia WebFortified na pamäť.<p>Odporúča sa povoliť túto možnosť na menej výkonných zariadení.",
     "description":"Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader":{
@@ -368,8 +368,8 @@
     "description":"English: Export"
   },
   "1pExportFilename":{
-    "message":"ublock-moje-statické-filtre_{{datetime}}.txt",
-    "description":"English: my-ublock-static-filters_{{datetime}}.txt"
+    "message":"webfortified-moje-statické-filtre_{{datetime}}.txt",
+    "description":"English: my-webfortified-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges":{
     "message":"Použiť zmeny",
@@ -412,7 +412,7 @@
     "description":""
   },
   "rulesDefaultFileName":{
-    "message":"ublock-moje-dynamické-pravidlá_{{datetime}}.txt",
+    "message":"webfortified-moje-dynamické-pravidlá_{{datetime}}.txt",
     "description":"default file name to use"
   },
   "rulesHint":{
@@ -424,7 +424,7 @@
     "description":"English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt":{
-    "message":"Váš zoznam názvov hostiteľov, pre ktoré bude uBlock zakázaný. Jedna položka na riadok. Neplatné názvy hostiteľov budú ignorované.",
+    "message":"Váš zoznam názvov hostiteľov, pre ktoré bude WebFortified zakázaný. Jedna položka na riadok. Neplatné názvy hostiteľov budú ignorované.",
     "description":"English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport":{
@@ -436,8 +436,8 @@
     "description":"English: Export"
   },
   "whitelistExportFilename":{
-    "message":"ublock-moja-biela-listina_{{datetime}}.txt",
-    "description":"English: my-ublock-whitelist_{{datetime}}.txt"
+    "message":"webfortified-moja-biela-listina_{{datetime}}.txt",
+    "description":"English: my-webfortified-whitelist_{{datetime}}.txt"
   },
   "whitelistApply":{
     "message":"Použiť zmeny",
@@ -556,8 +556,8 @@
     "description":"Text for button to create a backup of all settings"
   },
   "aboutBackupFilename":{
-    "message":"ublock-moja-záloha_{{datetime}}.txt",
-    "description":"English: my-ublock-backup_{{datetime}}.txt"
+    "message":"webfortified-moja-záloha_{{datetime}}.txt",
+    "description":"English: my-webfortified-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton":{
     "message":"Obnoviť zo súboru...",
@@ -568,7 +568,7 @@
     "description":"English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm":{
-    "message":"Všetky vaše nastavenia budú prepísané pomocou dáta zálohovaných dňa {{time}} a uBlock sa reštartne.\n\nPrepísať všetky existujúce nastavenia pomocou zálohovaných dát?",
+    "message":"Všetky vaše nastavenia budú prepísané pomocou dáta zálohovaných dňa {{time}} a WebFortified sa reštartne.\n\nPrepísať všetky existujúce nastavenia pomocou zálohovaných dát?",
     "description":"Message asking user to confirm restore"
   },
   "aboutRestoreDataError":{
@@ -576,7 +576,7 @@
     "description":"Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm":{
-    "message":"Všetky vaše nastavenia budú odstránené a uBlock sa reštartne.\n\nObnoviť uBlock na predvolené nastavenia?",
+    "message":"Všetky vaše nastavenia budú odstránené a WebFortified sa reštartne.\n\nObnoviť WebFortified na predvolené nastavenia?",
     "description":"Message asking user to confirm reset"
   },
   "errorCantConnectTo":{
@@ -584,7 +584,7 @@
     "description":"English: Network error: unable to connect to {{url}}"
   },
   "subscriberConfirm":{
-    "message":"uBlock: Pridať nasledujúcu URL do zoznamu vlastných filtrov?\n\nNázov: \"{{title}}\"\nURL: {{url}}",
+    "message":"WebFortified: Pridať nasledujúcu URL do zoznamu vlastných filtrov?\n\nNázov: \"{{title}}\"\nURL: {{url}}",
     "description":"English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo":{
@@ -621,11 +621,11 @@
   },
   "fennecMenuItemBlockingOff":{
     "message":"vypnutý",
-    "description":"Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description":"Firefox-specific: appears as 'WebFortified (off)'"
   },
   "docblockedPrompt1":{
-    "message":"uBlock Origin zabránil načítaniu nasledujúcej stránky:",
-    "description":"English: uBlock₀ has prevented the following page from loading:"
+    "message":"WebFortified zabránil načítaniu nasledujúcej stránky:",
+    "description":"English: WebFortified has prevented the following page from loading:"
   },
   "docblockedPrompt2":{
     "message":"Kvôli nasledujúcemu filtru",

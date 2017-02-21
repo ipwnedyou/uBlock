@@ -1,6 +1,6 @@
 {
   "extName":{
-    "message":"uBlock₀",
+    "message":"WebFortified",
     "description":"extension name."
   },
   "extShortDesc":{
@@ -8,8 +8,8 @@
     "description":"this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName":{
-    "message":"uBlock₀ — Prietaisų skydas",
-    "description":"English: uBlock₀ — Dashboard"
+    "message":"WebFortified — Prietaisų skydas",
+    "description":"English: WebFortified — Dashboard"
   },
   "settingsPageName":{
     "message":"Nustatymai",
@@ -32,7 +32,7 @@
     "description":"appears as tab name in dashboard"
   },
   "statsPageName":{
-    "message":"uBlock₀ — Žurnalas",
+    "message":"WebFortified — Žurnalas",
     "description":"Title for the logger window"
   },
   "aboutPageName":{
@@ -44,8 +44,8 @@
     "description":"Title for the advanced settings page"
   },
   "popupPowerSwitchInfo":{
-    "message":"Spustelėjimas: įjungti\/išjungti uBlock₀ šiam puslapiui.\n\nVald+spustelėjimas: išjungti uBlock₀ tik šiam puslapiui.",
-    "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message":"Spustelėjimas: įjungti\/išjungti WebFortified šiam puslapiui.\n\nVald+spustelėjimas: išjungti WebFortified tik šiam puslapiui.",
+    "description":"English: Click: disable\/enable WebFortified for this site.\n\nCtrl+click: disable WebFortified only on this page."
   },
   "popupBlockedRequestPrompt":{
     "message":"blokuotos užklausos",
@@ -284,7 +284,7 @@
     "description":"English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo":{
-    "message":"<p>Ši nuostata įjungia <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Su Adblock Plus suderinamų „elementų slėpimo“ filtrų<\/a> analizę ir taikymą. Šie filtrai iš esmės yra kosmetiniai, jie naudojami tinklalapio elementams, kurie yra laikomi vaizdiniais nepatogumais ir kurių negalima užblokuoti tinklo užklausomis paremtais filtrais, paslėpti.<\/p><p>Šios nuostatos įjungimas padidina uBlock₀ atminties naudojimą.<\/p>",
+    "message":"<p>Ši nuostata įjungia <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Su Adblock Plus suderinamų „elementų slėpimo“ filtrų<\/a> analizę ir taikymą. Šie filtrai iš esmės yra kosmetiniai, jie naudojami tinklalapio elementams, kurie yra laikomi vaizdiniais nepatogumais ir kurių negalima užblokuoti tinklo užklausomis paremtais filtrais, paslėpti.<\/p><p>Šios nuostatos įjungimas padidina WebFortified atminties naudojimą.<\/p>",
     "description":"Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters":{
@@ -292,7 +292,7 @@
     "description":"This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo":{
-    "message":"<p>Daugybiniai kosmetiniai filtrai yra tokie kosmetiniai filtrai, kurie taikomi visoms svetainėms.<p>Nors uBlock₀ juos apdoroja efektyviai, daugybiniai kosmetiniai filtrai vis tiek gali prisidėti prie pamatuojamo atminties ir procesoriaus panaudojimo kai kuriose svetainėse, ypač didelėse ir ilgai gyvuojančiose.<p>Šio nustatymo įjungimas sumažins atminties ir procesoriaus naudojimą, kurį sukelia svetainės dėl daugybinių kosmetinių filtrų apdorojimo, bei sumažins bendrą uBlock₀ atminties naudojimą.<p>Rekomenduojama įjungti šį nustatymą mažiau galinguose įrenginiuose.",
+    "message":"<p>Daugybiniai kosmetiniai filtrai yra tokie kosmetiniai filtrai, kurie taikomi visoms svetainėms.<p>Nors WebFortified juos apdoroja efektyviai, daugybiniai kosmetiniai filtrai vis tiek gali prisidėti prie pamatuojamo atminties ir procesoriaus panaudojimo kai kuriose svetainėse, ypač didelėse ir ilgai gyvuojančiose.<p>Šio nustatymo įjungimas sumažins atminties ir procesoriaus naudojimą, kurį sukelia svetainės dėl daugybinių kosmetinių filtrų apdorojimo, bei sumažins bendrą WebFortified atminties naudojimą.<p>Rekomenduojama įjungti šį nustatymą mažiau galinguose įrenginiuose.",
     "description":"Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader":{
@@ -368,8 +368,8 @@
     "description":"English: Export"
   },
   "1pExportFilename":{
-    "message":"mano-ublock-statiniai-filtrai_{{datetime}}.txt",
-    "description":"English: my-ublock-static-filters_{{datetime}}.txt"
+    "message":"mano-webfortified-statiniai-filtrai_{{datetime}}.txt",
+    "description":"English: my-webfortified-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges":{
     "message":"Taikyti pakeitimus",
@@ -412,7 +412,7 @@
     "description":""
   },
   "rulesDefaultFileName":{
-    "message":"mano-ublock-dinaminės-taisyklės_{{datetime}}.txt",
+    "message":"mano-webfortified-dinaminės-taisyklės_{{datetime}}.txt",
     "description":"default file name to use"
   },
   "rulesHint":{
@@ -424,7 +424,7 @@
     "description":"English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt":{
-    "message":"Serverių sąrašas, kuriems uBlock₀ bus išjungtas. Vienas įrašas eilutėje. Neteisingi serverių vardai bus tyliai ignoruoti.",
+    "message":"Serverių sąrašas, kuriems WebFortified bus išjungtas. Vienas įrašas eilutėje. Neteisingi serverių vardai bus tyliai ignoruoti.",
     "description":"English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport":{
@@ -436,8 +436,8 @@
     "description":"English: Export"
   },
   "whitelistExportFilename":{
-    "message":"mano-ublock-išimtys_{{datetime}}.txt",
-    "description":"English: my-ublock-whitelist_{{datetime}}.txt"
+    "message":"mano-webfortified-išimtys_{{datetime}}.txt",
+    "description":"English: my-webfortified-whitelist_{{datetime}}.txt"
   },
   "whitelistApply":{
     "message":"Taikyti pakeitimus",
@@ -556,8 +556,8 @@
     "description":"Text for button to create a backup of all settings"
   },
   "aboutBackupFilename":{
-    "message":"mano-ublock-atsarginė_kopija_{{datetime}}.txt",
-    "description":"English: my-ublock-backup_{{datetime}}.txt"
+    "message":"mano-webfortified-atsarginė_kopija_{{datetime}}.txt",
+    "description":"English: my-webfortified-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton":{
     "message":"Atkurti iš failo...",
@@ -568,7 +568,7 @@
     "description":"English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm":{
-    "message":"Visi jūsų nustatymai bus perrašyti naudojant duomenis iš {{time}} atsarginės kopijos, o uBlock₀ bus perleistas.\n\nPerrašyti visus nustatymus naudojant atsarginės kopijos duomenis?",
+    "message":"Visi jūsų nustatymai bus perrašyti naudojant duomenis iš {{time}} atsarginės kopijos, o WebFortified bus perleistas.\n\nPerrašyti visus nustatymus naudojant atsarginės kopijos duomenis?",
     "description":"Message asking user to confirm restore"
   },
   "aboutRestoreDataError":{
@@ -576,7 +576,7 @@
     "description":"Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm":{
-    "message":"Visi jūsų nustatymai bus pašalinti, o uBlock₀ bus perleistas.\n\nAtkurti uBlock₀ pradinius nustatymus?",
+    "message":"Visi jūsų nustatymai bus pašalinti, o WebFortified bus perleistas.\n\nAtkurti WebFortified pradinius nustatymus?",
     "description":"Message asking user to confirm reset"
   },
   "errorCantConnectTo":{
@@ -584,7 +584,7 @@
     "description":"English: Network error: unable to connect to {{url}}"
   },
   "subscriberConfirm":{
-    "message":"uBlock₀: Pridėti šį URL į jūsų adaptuotų filtrų sąrašą?\n\nPavadinimas: „{{title}}“\nURL: {{url}}",
+    "message":"WebFortified: Pridėti šį URL į jūsų adaptuotų filtrų sąrašą?\n\nPavadinimas: „{{title}}“\nURL: {{url}}",
     "description":"English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo":{
@@ -621,11 +621,11 @@
   },
   "fennecMenuItemBlockingOff":{
     "message":"išjungta",
-    "description":"Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description":"Firefox-specific: appears as 'WebFortified (off)'"
   },
   "docblockedPrompt1":{
-    "message":"uBlock Origin neleido įkelti šio puslapio:",
-    "description":"English: uBlock₀ has prevented the following page from loading:"
+    "message":"WebFortified neleido įkelti šio puslapio:",
+    "description":"English: WebFortified has prevented the following page from loading:"
   },
   "docblockedPrompt2":{
     "message":"Dėl šio filtro",

@@ -1,6 +1,6 @@
 {
   "extName":{
-    "message":"uBlock₀",
+    "message":"WebFortified",
     "description":"extension name."
   },
   "extShortDesc":{
@@ -8,8 +8,8 @@
     "description":"this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName":{
-    "message":"uBlock₀ — Kontrol panela",
-    "description":"English: uBlock₀ — Dashboard"
+    "message":"WebFortified — Kontrol panela",
+    "description":"English: WebFortified — Dashboard"
   },
   "settingsPageName":{
     "message":"Ezarpenak",
@@ -32,7 +32,7 @@
     "description":"appears as tab name in dashboard"
   },
   "statsPageName":{
-    "message":"uBlock₀ — Egunkaria",
+    "message":"WebFortified — Egunkaria",
     "description":"Title for the logger window"
   },
   "aboutPageName":{
@@ -44,8 +44,8 @@
     "description":"Title for the advanced settings page"
   },
   "popupPowerSwitchInfo":{
-    "message":"Klik: gaitu\/ezgaitu uBlock₀ gune honetan.\n\nKtrl+klik: ezgaitu uBlock₀ orri honetan soilik.",
-    "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message":"Klik: gaitu\/ezgaitu WebFortified gune honetan.\n\nKtrl+klik: ezgaitu WebFortified orri honetan soilik.",
+    "description":"English: Click: disable\/enable WebFortified for this site.\n\nCtrl+click: disable WebFortified only on this page."
   },
   "popupBlockedRequestPrompt":{
     "message":"blokeatutako eskariak",
@@ -284,7 +284,7 @@
     "description":"English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo":{
-    "message":"<p>Aukera honek <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plusekin bateragarriak diren &ldquo;elementuak ezkutatzeko&rdquo; iragazkiak<\/a> prozesatzea eta ezartzea gaitzen du. Iragazki hauek nagusiki kosmetikoak dira, web orri batean itsusitzat jo diren eta sare iragazkien bidez blokeatzerik ez dauden elementuak ezkutatzeko balio dute.<\/p><p>Ezaugarri hau gaitzeak uBlock₀en memoria erabilera handitzen du.<\/p>",
+    "message":"<p>Aukera honek <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plusekin bateragarriak diren &ldquo;elementuak ezkutatzeko&rdquo; iragazkiak<\/a> prozesatzea eta ezartzea gaitzen du. Iragazki hauek nagusiki kosmetikoak dira, web orri batean itsusitzat jo diren eta sare iragazkien bidez blokeatzerik ez dauden elementuak ezkutatzeko balio dute.<\/p><p>Ezaugarri hau gaitzeak WebFortifieden memoria erabilera handitzen du.<\/p>",
     "description":"Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters":{
@@ -292,7 +292,7 @@
     "description":"This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo":{
-    "message":"<p>Iragazki kosmetiko orokorrak webgune guztietan aplikatzeko sortu diren iragazki kosmetikoak dira. <p>uBlock₀ aplikazioak ongi kudeatzen baditu ere iragazki kosmetiko orokorrek wegune batzuetan memoria edo PUZ erabilera nabarmena ekar dezakete handiak eta antzinakoak diren horietan gehienbat. <p>Aukera hau gaituz iragazki kosmetiko orokorren erabileraren ondoriozko memoria eta PUZ erabilera gehigarria sahiestuko da, eta baita uBlock₀ beraren memoria erabilera gutxiagotu. <p> Ahalmen gutxiagoko gailuetan aukera hau gaitzea aholkatzen da.",
+    "message":"<p>Iragazki kosmetiko orokorrak webgune guztietan aplikatzeko sortu diren iragazki kosmetikoak dira. <p>WebFortified aplikazioak ongi kudeatzen baditu ere iragazki kosmetiko orokorrek wegune batzuetan memoria edo PUZ erabilera nabarmena ekar dezakete handiak eta antzinakoak diren horietan gehienbat. <p>Aukera hau gaituz iragazki kosmetiko orokorren erabileraren ondoriozko memoria eta PUZ erabilera gehigarria sahiestuko da, eta baita WebFortified beraren memoria erabilera gutxiagotu. <p> Ahalmen gutxiagoko gailuetan aukera hau gaitzea aholkatzen da.",
     "description":"Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader":{
@@ -368,8 +368,8 @@
     "description":"English: Export"
   },
   "1pExportFilename":{
-    "message":"nire-ublock-iragazki-estatikoak_{{datetime}}.txt",
-    "description":"English: my-ublock-static-filters_{{datetime}}.txt"
+    "message":"nire-webfortified-iragazki-estatikoak_{{datetime}}.txt",
+    "description":"English: my-webfortified-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges":{
     "message":"Aplikatu aldaketak",
@@ -412,7 +412,7 @@
     "description":""
   },
   "rulesDefaultFileName":{
-    "message":"nire-ublock-arau-dinamikoak_{{datetime}}.txt",
+    "message":"nire-webfortified-arau-dinamikoak_{{datetime}}.txt",
     "description":"default file name to use"
   },
   "rulesHint":{
@@ -424,7 +424,7 @@
     "description":"English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt":{
-    "message":"Zerrenda zuriaren direktibek uBlock zeintzu web orrietan desgaituko den zehazten dute. Sarrera bat lerroko. Baliogabeko ostalari izenak ezikusiko dira.",
+    "message":"Zerrenda zuriaren direktibek WebFortified zeintzu web orrietan desgaituko den zehazten dute. Sarrera bat lerroko. Baliogabeko ostalari izenak ezikusiko dira.",
     "description":"English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport":{
@@ -436,8 +436,8 @@
     "description":"English: Export"
   },
   "whitelistExportFilename":{
-    "message":"nire-ublock-zerrendazuria_{{datetime}}.txt",
-    "description":"English: my-ublock-whitelist_{{datetime}}.txt"
+    "message":"nire-webfortified-zerrendazuria_{{datetime}}.txt",
+    "description":"English: my-webfortified-whitelist_{{datetime}}.txt"
   },
   "whitelistApply":{
     "message":"Aplikatu aldaketak",
@@ -556,8 +556,8 @@
     "description":"Text for button to create a backup of all settings"
   },
   "aboutBackupFilename":{
-    "message":"nire-ublock-babeskopia_{{datetime}}.txt",
-    "description":"English: my-ublock-backup_{{datetime}}.txt"
+    "message":"nire-webfortified-babeskopia_{{datetime}}.txt",
+    "description":"English: my-webfortified-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton":{
     "message":"Berreskuratu fitxategitik...",
@@ -568,7 +568,7 @@
     "description":"English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm":{
-    "message":"Zure ezarpen guztiak gainidatziko dira {{time}}ko datuak erabiliz, eta uBlock₀ berrabiaraziko da.\n\nGainidatzi ezarpen guztiak babeskopiako datuekin?",
+    "message":"Zure ezarpen guztiak gainidatziko dira {{time}}ko datuak erabiliz, eta WebFortified berrabiaraziko da.\n\nGainidatzi ezarpen guztiak babeskopiako datuekin?",
     "description":"Message asking user to confirm restore"
   },
   "aboutRestoreDataError":{
@@ -576,7 +576,7 @@
     "description":"Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm":{
-    "message":"Zure ezarpen guztiak ezabatuko dira, eta uBlock₀ berrabiaraziko da.\n\nLeheneratu uBlock₀ jatorrizko ezarpenetara?",
+    "message":"Zure ezarpen guztiak ezabatuko dira, eta WebFortified berrabiaraziko da.\n\nLeheneratu WebFortified jatorrizko ezarpenetara?",
     "description":"Message asking user to confirm reset"
   },
   "errorCantConnectTo":{
@@ -584,7 +584,7 @@
     "description":"English: Network error: unable to connect to {{url}}"
   },
   "subscriberConfirm":{
-    "message":"uBlock₀: Gehitu honako URL hauek zure iragazki pertsonalizatuen zerrendara?\n\nIzenburua: \"{{title}}\"\nURLa: {{url}}",
+    "message":"WebFortified: Gehitu honako URL hauek zure iragazki pertsonalizatuen zerrendara?\n\nIzenburua: \"{{title}}\"\nURLa: {{url}}",
     "description":"English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo":{
@@ -621,11 +621,11 @@
   },
   "fennecMenuItemBlockingOff":{
     "message":"itzalita",
-    "description":"Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description":"Firefox-specific: appears as 'WebFortified (off)'"
   },
   "docblockedPrompt1":{
-    "message":"uBlock₀ek orri hau kargatzea galarazi du:",
-    "description":"English: uBlock₀ has prevented the following page from loading:"
+    "message":"WebFortifiedek orri hau kargatzea galarazi du:",
+    "description":"English: WebFortified has prevented the following page from loading:"
   },
   "docblockedPrompt2":{
     "message":"Iragazki hau dela eta",

@@ -1,6 +1,6 @@
 {
   "extName":{
-    "message":"uBlock₀",
+    "message":"WebFortified",
     "description":"extension name."
   },
   "extShortDesc":{
@@ -8,8 +8,8 @@
     "description":"this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName":{
-    "message":"uBlock₀ — Dasbor",
-    "description":"English: uBlock₀ — Dashboard"
+    "message":"WebFortified — Dasbor",
+    "description":"English: WebFortified — Dashboard"
   },
   "settingsPageName":{
     "message":"Pengaturan",
@@ -32,7 +32,7 @@
     "description":"appears as tab name in dashboard"
   },
   "statsPageName":{
-    "message":"uBlock₀ — Pencatat Log",
+    "message":"WebFortified — Pencatat Log",
     "description":"Title for the logger window"
   },
   "aboutPageName":{
@@ -44,8 +44,8 @@
     "description":"Title for the advanced settings page"
   },
   "popupPowerSwitchInfo":{
-    "message":"Klik: nonfungsi\/fungsikan uBlock₀ untuk situs ini.\n\nCtrl+klik: nonfungsikan uBlock₀ hanya di halaman ini.",
-    "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message":"Klik: nonfungsi\/fungsikan WebFortified untuk situs ini.\n\nCtrl+klik: nonfungsikan WebFortified hanya di halaman ini.",
+    "description":"English: Click: disable\/enable WebFortified for this site.\n\nCtrl+click: disable WebFortified only on this page."
   },
   "popupBlockedRequestPrompt":{
     "message":"permintaan diblokir",
@@ -284,7 +284,7 @@
     "description":"English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo":{
-    "message":"<p>Opsi ini memfungsikan penguraian dan memaksa-jalankan <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">filter &ldquo;penyembunyian elemen&rdquo; yang kompatibel dengan Adblock Plus<\/a>. Filter ini pada dasarnya hanya sekedar penyaring tampilan, berfungsi untuk menyembunyikan elemen di halaman web yang dianggap sebagai gangguan visual, dan tidak dapat diblokir oleh filter berbasis permintaan jaringan.<\/p><p>Memfungsikan fitur ini akan meningkatkan penggunaan memori <i>uBlock₀<\/i>.<\/p>",
+    "message":"<p>Opsi ini memfungsikan penguraian dan memaksa-jalankan <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">filter &ldquo;penyembunyian elemen&rdquo; yang kompatibel dengan Adblock Plus<\/a>. Filter ini pada dasarnya hanya sekedar penyaring tampilan, berfungsi untuk menyembunyikan elemen di halaman web yang dianggap sebagai gangguan visual, dan tidak dapat diblokir oleh filter berbasis permintaan jaringan.<\/p><p>Memfungsikan fitur ini akan meningkatkan penggunaan memori <i>WebFortified<\/i>.<\/p>",
     "description":"Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters":{
@@ -292,7 +292,7 @@
     "description":"This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo":{
-    "message":"<p>Filter tampilan generik adalah filter tampilan yang dibuat untuk diterapkan pada semua situs web.<p>Meskipun dikelola secara efisien oleh uBlock₀, filter tampilan generik masih dapat menyebabkan peningkatan overhead memori ram dan CPU pada beberapa halaman web, terutama untuk halaman berukuran besar dan jarang diperbarui dalam waktu lama.<p>Mengaktifkan opsi ini akan menghilangkan peningkatan overhead memori ram dan CPU pada halaman web akibat diterapkannya filter tampilan generik, dan juga mengurangi penggunaan memori ram uBlock₀ itu sendiri.<p>Direkomendasikan untuk mengaktifkan opsi ini pada perangkat dengan ram kecil atau kekuatan CPU yang lemah.",
+    "message":"<p>Filter tampilan generik adalah filter tampilan yang dibuat untuk diterapkan pada semua situs web.<p>Meskipun dikelola secara efisien oleh WebFortified, filter tampilan generik masih dapat menyebabkan peningkatan overhead memori ram dan CPU pada beberapa halaman web, terutama untuk halaman berukuran besar dan jarang diperbarui dalam waktu lama.<p>Mengaktifkan opsi ini akan menghilangkan peningkatan overhead memori ram dan CPU pada halaman web akibat diterapkannya filter tampilan generik, dan juga mengurangi penggunaan memori ram WebFortified itu sendiri.<p>Direkomendasikan untuk mengaktifkan opsi ini pada perangkat dengan ram kecil atau kekuatan CPU yang lemah.",
     "description":"Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader":{
@@ -368,8 +368,8 @@
     "description":"English: Export"
   },
   "1pExportFilename":{
-    "message":"my-ublock-static-filters_{{datetime}}.txt",
-    "description":"English: my-ublock-static-filters_{{datetime}}.txt"
+    "message":"my-webfortified-static-filters_{{datetime}}.txt",
+    "description":"English: my-webfortified-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges":{
     "message":"Terapkan perubahan",
@@ -412,7 +412,7 @@
     "description":""
   },
   "rulesDefaultFileName":{
-    "message":"my-ublock-dynamic-rules_{{datetime}}.txt",
+    "message":"my-webfortified-dynamic-rules_{{datetime}}.txt",
     "description":"default file name to use"
   },
   "rulesHint":{
@@ -424,7 +424,7 @@
     "description":"English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt":{
-    "message":"Daftar putih domain atau halaman, uBlock Origin akan dinonaktifkan. Satu entri per baris. Entri yang tidak valid akan diabaikan dan dijadikan komentar.",
+    "message":"Daftar putih domain atau halaman, WebFortified akan dinonaktifkan. Satu entri per baris. Entri yang tidak valid akan diabaikan dan dijadikan komentar.",
     "description":"English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport":{
@@ -436,8 +436,8 @@
     "description":"English: Export"
   },
   "whitelistExportFilename":{
-    "message":"my-ublock-whitelist_{{datetime}}.txt",
-    "description":"English: my-ublock-whitelist_{{datetime}}.txt"
+    "message":"my-webfortified-whitelist_{{datetime}}.txt",
+    "description":"English: my-webfortified-whitelist_{{datetime}}.txt"
   },
   "whitelistApply":{
     "message":"Terapkan perubahan",
@@ -556,8 +556,8 @@
     "description":"Text for button to create a backup of all settings"
   },
   "aboutBackupFilename":{
-    "message":"my-ublock-backup_{{datetime}}.txt",
-    "description":"English: my-ublock-backup_{{datetime}}.txt"
+    "message":"my-webfortified-backup_{{datetime}}.txt",
+    "description":"English: my-webfortified-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton":{
     "message":"Pulihkan dari berkas...",
@@ -568,7 +568,7 @@
     "description":"English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm":{
-    "message":"Semua pengaturan anda akan ditimpa dengan data yang dicadangkan pada {{time}}, dan uBlock₀ akan memulai ulang.\n\nTimpa semua pengaturan yang ada dengan data cadangan?",
+    "message":"Semua pengaturan anda akan ditimpa dengan data yang dicadangkan pada {{time}}, dan WebFortified akan memulai ulang.\n\nTimpa semua pengaturan yang ada dengan data cadangan?",
     "description":"Message asking user to confirm restore"
   },
   "aboutRestoreDataError":{
@@ -576,7 +576,7 @@
     "description":"Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm":{
-    "message":"Semua pengaturan anda akan dihapus, dan uBlock₀ akan memulai ulang.\n\nKembalikan uBlock₀ ke pengaturan bawaan?",
+    "message":"Semua pengaturan anda akan dihapus, dan WebFortified akan memulai ulang.\n\nKembalikan WebFortified ke pengaturan bawaan?",
     "description":"Message asking user to confirm reset"
   },
   "errorCantConnectTo":{
@@ -584,7 +584,7 @@
     "description":"English: Network error: unable to connect to {{url}}"
   },
   "subscriberConfirm":{
-    "message":"uBlock₀: Tambahkan URL berikut ke daftar filter tersesuai anda?\n\nJudul: \"{{title}}\"\nURL: {{url}}",
+    "message":"WebFortified: Tambahkan URL berikut ke daftar filter tersesuai anda?\n\nJudul: \"{{title}}\"\nURL: {{url}}",
     "description":"English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo":{
@@ -621,11 +621,11 @@
   },
   "fennecMenuItemBlockingOff":{
     "message":"mati",
-    "description":"Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description":"Firefox-specific: appears as 'WebFortified (off)'"
   },
   "docblockedPrompt1":{
-    "message":"uBlock Origin telah mencegah halaman berikut dimuat:",
-    "description":"English: uBlock₀ has prevented the following page from loading:"
+    "message":"WebFortified telah mencegah halaman berikut dimuat:",
+    "description":"English: WebFortified has prevented the following page from loading:"
   },
   "docblockedPrompt2":{
     "message":"Disebabkan oleh filter berikut",

@@ -1,6 +1,6 @@
 {
   "extName":{
-    "message":"uBlock₀",
+    "message":"WebFortified",
     "description":"extension name."
   },
   "extShortDesc":{
@@ -8,8 +8,8 @@
     "description":"this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName":{
-    "message":"uBlock₀ — Töölaud",
-    "description":"English: uBlock₀ — Dashboard"
+    "message":"WebFortified — Töölaud",
+    "description":"English: WebFortified — Dashboard"
   },
   "settingsPageName":{
     "message":"Seaded",
@@ -32,7 +32,7 @@
     "description":"appears as tab name in dashboard"
   },
   "statsPageName":{
-    "message":"uBlock — Võrgutaotluste logi",
+    "message":"WebFortified — Võrgutaotluste logi",
     "description":"Title for the logger window"
   },
   "aboutPageName":{
@@ -44,8 +44,8 @@
     "description":"Title for the advanced settings page"
   },
   "popupPowerSwitchInfo":{
-    "message":"Klõps: keela\/luba uBlock₀ sellel saidil.\n\nCtrl+klõps: keela uBlock₀ ainult sellel lehel.",
-    "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message":"Klõps: keela\/luba WebFortified sellel saidil.\n\nCtrl+klõps: keela WebFortified ainult sellel lehel.",
+    "description":"English: Click: disable\/enable WebFortified for this site.\n\nCtrl+click: disable WebFortified only on this page."
   },
   "popupBlockedRequestPrompt":{
     "message":"blokeeritud taotlusi",
@@ -284,7 +284,7 @@
     "description":"English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo":{
-    "message":"<p>See valik lubab <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plusiga ühilduvate &ldquo;elemente peitvate&rdquo; filtrite<\/a> lubamist. Need filtrid parandavad lehtede välimust, peites elemente, mida ei blokeerita võrgupäringutel põhinevate filtritega.<\/p><p>Selle valiku lubamine suurendab <i>uBlock₀<\/i>'i mälu kasutavust.<\/p>",
+    "message":"<p>See valik lubab <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plusiga ühilduvate &ldquo;elemente peitvate&rdquo; filtrite<\/a> lubamist. Need filtrid parandavad lehtede välimust, peites elemente, mida ei blokeerita võrgupäringutel põhinevate filtritega.<\/p><p>Selle valiku lubamine suurendab <i>WebFortified<\/i>'i mälu kasutavust.<\/p>",
     "description":"Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters":{
@@ -292,7 +292,7 @@
     "description":"This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo":{
-    "message":"<p>Üldised ilufiltrid on need ilufiltrid, mis töötavad kõikidel veebisaitidel.<p>Kuigi uBlock₀ käsitleb neid tõhusalt, võivad üldised ilufiltrid siiski tarbida küllaltki palju mälu ja protsessori ressursse teatud veebisaitidel, eriti suurte ja kaua eksisteerivate puhul.<p>Selle valiku lubamine vähendab üldiste ilufiltrite kasutamisest tulenevat mälu ja protsessori koormust ning vähendab ka uBlock₀i mälu tarbimist.<p>Selle valiku lubamine on soovitatav vähem võimekates seadmetes.",
+    "message":"<p>Üldised ilufiltrid on need ilufiltrid, mis töötavad kõikidel veebisaitidel.<p>Kuigi WebFortified käsitleb neid tõhusalt, võivad üldised ilufiltrid siiski tarbida küllaltki palju mälu ja protsessori ressursse teatud veebisaitidel, eriti suurte ja kaua eksisteerivate puhul.<p>Selle valiku lubamine vähendab üldiste ilufiltrite kasutamisest tulenevat mälu ja protsessori koormust ning vähendab ka WebFortifiedi mälu tarbimist.<p>Selle valiku lubamine on soovitatav vähem võimekates seadmetes.",
     "description":"Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader":{
@@ -368,8 +368,8 @@
     "description":"English: Export"
   },
   "1pExportFilename":{
-    "message":"minu-ublocki-staatilised-filtrid_{{datetime}}.txt",
-    "description":"English: my-ublock-static-filters_{{datetime}}.txt"
+    "message":"minu-webfortifiedi-staatilised-filtrid_{{datetime}}.txt",
+    "description":"English: my-webfortified-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges":{
     "message":"Kinnita muudatused",
@@ -412,7 +412,7 @@
     "description":""
   },
   "rulesDefaultFileName":{
-    "message":"minu-ublocki-dünaamilised-reeglid_{{datetime}}.txt",
+    "message":"minu-webfortifiedi-dünaamilised-reeglid_{{datetime}}.txt",
     "description":"default file name to use"
   },
   "rulesHint":{
@@ -424,7 +424,7 @@
     "description":"English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt":{
-    "message":"Valge nimekirja direktiivid määravad, millistel veebilehtedel peaks uBlock Origin keelatud olema. Üks domeen rea kohta. Sobimatuid direktiive vaikselt ignoreeritakse ja kommenteeritakse välja.",
+    "message":"Valge nimekirja direktiivid määravad, millistel veebilehtedel peaks WebFortified keelatud olema. Üks domeen rea kohta. Sobimatuid direktiive vaikselt ignoreeritakse ja kommenteeritakse välja.",
     "description":"English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport":{
@@ -436,8 +436,8 @@
     "description":"English: Export"
   },
   "whitelistExportFilename":{
-    "message":"minu-ublocki-valge-loend_{{datetime}}.txt",
-    "description":"English: my-ublock-whitelist_{{datetime}}.txt"
+    "message":"minu-webfortifiedi-valge-loend_{{datetime}}.txt",
+    "description":"English: my-webfortified-whitelist_{{datetime}}.txt"
   },
   "whitelistApply":{
     "message":"Kinnita muudatused",
@@ -556,8 +556,8 @@
     "description":"Text for button to create a backup of all settings"
   },
   "aboutBackupFilename":{
-    "message":"minu-ublocki-varundus_{{datetime}}.txt",
-    "description":"English: my-ublock-backup_{{datetime}}.txt"
+    "message":"minu-webfortifiedi-varundus_{{datetime}}.txt",
+    "description":"English: my-webfortified-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton":{
     "message":"Taasta failist...",
@@ -568,7 +568,7 @@
     "description":"English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm":{
-    "message":"Kõik seaded kirjutatakse üle, kasutades varundust kuupäevast {{time}} ning uBlock₀ taaskäivitatakse.\n\nKirjutan üle kõik praegused seaded varundusandmetega?",
+    "message":"Kõik seaded kirjutatakse üle, kasutades varundust kuupäevast {{time}} ning WebFortified taaskäivitatakse.\n\nKirjutan üle kõik praegused seaded varundusandmetega?",
     "description":"Message asking user to confirm restore"
   },
   "aboutRestoreDataError":{
@@ -576,7 +576,7 @@
     "description":"Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm":{
-    "message":"Kõik seaded kustutatakse ning uBlock₀ taaskäivitatakse.\n\nTaastan uBlock₀'i algseadetele?",
+    "message":"Kõik seaded kustutatakse ning WebFortified taaskäivitatakse.\n\nTaastan WebFortified'i algseadetele?",
     "description":"Message asking user to confirm reset"
   },
   "errorCantConnectTo":{
@@ -584,7 +584,7 @@
     "description":"English: Network error: unable to connect to {{url}}"
   },
   "subscriberConfirm":{
-    "message":"uBlock₀: Lisan järgneva URLi sinu kohandatud filtrite nimekirja?\n\nPealkiri: \"{{title}}\"\nURL: {{url}}",
+    "message":"WebFortified: Lisan järgneva URLi sinu kohandatud filtrite nimekirja?\n\nPealkiri: \"{{title}}\"\nURL: {{url}}",
     "description":"English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo":{
@@ -621,11 +621,11 @@
   },
   "fennecMenuItemBlockingOff":{
     "message":"väljas",
-    "description":"Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description":"Firefox-specific: appears as 'WebFortified (off)'"
   },
   "docblockedPrompt1":{
-    "message":"uBlock Origin on keelanud järgneva lehe laadimise:",
-    "description":"English: uBlock₀ has prevented the following page from loading:"
+    "message":"WebFortified on keelanud järgneva lehe laadimise:",
+    "description":"English: WebFortified has prevented the following page from loading:"
   },
   "docblockedPrompt2":{
     "message":"Järgneva filtri tõttu",

@@ -1,6 +1,6 @@
 {
   "extName":{
-    "message":"uBlock₀",
+    "message":"WebFortified",
     "description":"extension name."
   },
   "extShortDesc":{
@@ -8,8 +8,8 @@
     "description":"this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName":{
-    "message":"uBlock₀ — Panel de control",
-    "description":"English: uBlock₀ — Dashboard"
+    "message":"WebFortified — Panel de control",
+    "description":"English: WebFortified — Dashboard"
   },
   "settingsPageName":{
     "message":"Configuración",
@@ -32,7 +32,7 @@
     "description":"appears as tab name in dashboard"
   },
   "statsPageName":{
-    "message":"uBlock₀ — Registro de peticiones de red",
+    "message":"WebFortified — Registro de peticiones de red",
     "description":"Title for the logger window"
   },
   "aboutPageName":{
@@ -44,8 +44,8 @@
     "description":"Title for the advanced settings page"
   },
   "popupPowerSwitchInfo":{
-    "message":"Clic: desactivar\/activar uBlock₀ para este sitio.\n\nCtrl + clic: deshabilitar uBlock₀ sólo en esta página.",
-    "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message":"Clic: desactivar\/activar WebFortified para este sitio.\n\nCtrl + clic: deshabilitar WebFortified sólo en esta página.",
+    "description":"English: Click: disable\/enable WebFortified for this site.\n\nCtrl+click: disable WebFortified only on this page."
   },
   "popupBlockedRequestPrompt":{
     "message":"peticiones bloqueadas",
@@ -284,7 +284,7 @@
     "description":"English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo":{
-    "message":"<p>Esta opción permite el análisis y aplicación de <a href=\"https:\/\/adblockplus.org\/es\/faq_internal#elemhide\">&ldquo;filtros de ocultación de elementos&rdquo; compatibles con Adblock Plus\"<\/a>. Estos filtros son esencialmente cosméticos, sirven para ocultar elementos que se consideran una molestia visual en una página web, no siendo posible su eliminación con el motor de bloqueo basado en peticiones.<\/p><p>Habilitar esta opción aumenta el consumo de memoria de <i>uBlock₀<\/i>.<\/p>",
+    "message":"<p>Esta opción permite el análisis y aplicación de <a href=\"https:\/\/adblockplus.org\/es\/faq_internal#elemhide\">&ldquo;filtros de ocultación de elementos&rdquo; compatibles con Adblock Plus\"<\/a>. Estos filtros son esencialmente cosméticos, sirven para ocultar elementos que se consideran una molestia visual en una página web, no siendo posible su eliminación con el motor de bloqueo basado en peticiones.<\/p><p>Habilitar esta opción aumenta el consumo de memoria de <i>WebFortified<\/i>.<\/p>",
     "description":"Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters":{
@@ -292,7 +292,7 @@
     "description":"This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo":{
-    "message":"<p>Los filtros cosméticos genéricos son aquellos filtros cosméticos que aplican a todas las páginas. <p>Aunque uBlock₀ los gestiona de forma eficiente, estos filtros pueden contribuir a un aumento del uso de la memoria y la CPU en algunas páginas web, especialmente si contienen gran cantidad de contenido.<p>Al habilitar esta opción se disminuirá el uso de la CPU y exceso de uso de la memoria que resulta del procesamiento de los filtros cosméticos genéricos, así como el consumo de memoria de uBlock₀.<p>Se recomienda habilitar esta opción para dispositivos poco potentes.",
+    "message":"<p>Los filtros cosméticos genéricos son aquellos filtros cosméticos que aplican a todas las páginas. <p>Aunque WebFortified los gestiona de forma eficiente, estos filtros pueden contribuir a un aumento del uso de la memoria y la CPU en algunas páginas web, especialmente si contienen gran cantidad de contenido.<p>Al habilitar esta opción se disminuirá el uso de la CPU y exceso de uso de la memoria que resulta del procesamiento de los filtros cosméticos genéricos, así como el consumo de memoria de WebFortified.<p>Se recomienda habilitar esta opción para dispositivos poco potentes.",
     "description":"Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader":{
@@ -368,8 +368,8 @@
     "description":"English: Export"
   },
   "1pExportFilename":{
-    "message":"ublock-mis-filtros-estaticos_{{datetime}}.txt",
-    "description":"English: my-ublock-static-filters_{{datetime}}.txt"
+    "message":"webfortified-mis-filtros-estaticos_{{datetime}}.txt",
+    "description":"English: my-webfortified-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges":{
     "message":"Aplicar cambios",
@@ -412,7 +412,7 @@
     "description":""
   },
   "rulesDefaultFileName":{
-    "message":"ublock-mis-reglas-dinamicas_{{datetime}}.txt",
+    "message":"webfortified-mis-reglas-dinamicas_{{datetime}}.txt",
     "description":"default file name to use"
   },
   "rulesHint":{
@@ -424,7 +424,7 @@
     "description":"English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt":{
-    "message":"Lista de nombres de servidores para los cuales se deshabilitará uBlock₀. Una entrada por línea. Se omitirán nombres de servidores no válidos.",
+    "message":"Lista de nombres de servidores para los cuales se deshabilitará WebFortified. Una entrada por línea. Se omitirán nombres de servidores no válidos.",
     "description":"English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport":{
@@ -436,8 +436,8 @@
     "description":"English: Export"
   },
   "whitelistExportFilename":{
-    "message":"ublock-mi-lista-de-permitidos_{{datetime}}.txt",
-    "description":"English: my-ublock-whitelist_{{datetime}}.txt"
+    "message":"webfortified-mi-lista-de-permitidos_{{datetime}}.txt",
+    "description":"English: my-webfortified-whitelist_{{datetime}}.txt"
   },
   "whitelistApply":{
     "message":"Aplicar cambios",
@@ -556,8 +556,8 @@
     "description":"Text for button to create a backup of all settings"
   },
   "aboutBackupFilename":{
-    "message":"ublock-respaldo_{{datetime}}.txt",
-    "description":"English: my-ublock-backup_{{datetime}}.txt"
+    "message":"webfortified-respaldo_{{datetime}}.txt",
+    "description":"English: my-webfortified-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton":{
     "message":"Restaurar desde archivo...",
@@ -568,7 +568,7 @@
     "description":"English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm":{
-    "message":"Toda la configuración se sobrescribirá utilizando datos respaldados en {{time}} y uBlock₀ se reiniciará.  \n\n¿Sobrescribir toda la configuración existente utilizando datos de la copia de seguridad?",
+    "message":"Toda la configuración se sobrescribirá utilizando datos respaldados en {{time}} y WebFortified se reiniciará.  \n\n¿Sobrescribir toda la configuración existente utilizando datos de la copia de seguridad?",
     "description":"Message asking user to confirm restore"
   },
   "aboutRestoreDataError":{
@@ -576,7 +576,7 @@
     "description":"Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm":{
-    "message":"Se borrará toda la configuración y uBlock₀ se reiniciará.\n\n¿Restaurar uBlock₀ a la configuración por defecto?",
+    "message":"Se borrará toda la configuración y WebFortified se reiniciará.\n\n¿Restaurar WebFortified a la configuración por defecto?",
     "description":"Message asking user to confirm reset"
   },
   "errorCantConnectTo":{
@@ -584,7 +584,7 @@
     "description":"English: Network error: unable to connect to {{url}}"
   },
   "subscriberConfirm":{
-    "message":"uBlock₀: ¿Desea añadir la siguiente dirección a su lista de filtros personalizados?\n\nTítulo: \"{{title}}\"\nURL: {{url}}",
+    "message":"WebFortified: ¿Desea añadir la siguiente dirección a su lista de filtros personalizados?\n\nTítulo: \"{{title}}\"\nURL: {{url}}",
     "description":"English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo":{
@@ -621,11 +621,11 @@
   },
   "fennecMenuItemBlockingOff":{
     "message":"desactivado",
-    "description":"Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description":"Firefox-specific: appears as 'WebFortified (off)'"
   },
   "docblockedPrompt1":{
-    "message":"uBlock Origin impidió la carga de la página:",
-    "description":"English: uBlock₀ has prevented the following page from loading:"
+    "message":"WebFortified impidió la carga de la página:",
+    "description":"English: WebFortified has prevented the following page from loading:"
   },
   "docblockedPrompt2":{
     "message":"Como resultado del siguiente filtro:",

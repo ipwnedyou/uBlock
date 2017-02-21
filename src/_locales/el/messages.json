@@ -1,6 +1,6 @@
 {
   "extName":{
-    "message":"uBlock₀",
+    "message":"WebFortified",
     "description":"extension name."
   },
   "extShortDesc":{
@@ -8,8 +8,8 @@
     "description":"this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName":{
-    "message":"uBlock₀ - Πίνακας ελέγχου",
-    "description":"English: uBlock₀ — Dashboard"
+    "message":"WebFortified - Πίνακας ελέγχου",
+    "description":"English: WebFortified — Dashboard"
   },
   "settingsPageName":{
     "message":"Ρυθμίσεις",
@@ -32,7 +32,7 @@
     "description":"appears as tab name in dashboard"
   },
   "statsPageName":{
-    "message":"uBlock₀ - Καταγραφή αιτημάτων δικτύου",
+    "message":"WebFortified - Καταγραφή αιτημάτων δικτύου",
     "description":"Title for the logger window"
   },
   "aboutPageName":{
@@ -44,8 +44,8 @@
     "description":"Title for the advanced settings page"
   },
   "popupPowerSwitchInfo":{
-    "message":"Κλικ: απενεργοποίηση\/ενεργοποίηση του uBlock₀ για αυτόν τον ιστότοπο.\n\nCtrl+κλικ: απενεργοποίηση του uBlock₀ μόνο για αυτήν την σελίδα.",
-    "description":"English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message":"Κλικ: απενεργοποίηση\/ενεργοποίηση του WebFortified για αυτόν τον ιστότοπο.\n\nCtrl+κλικ: απενεργοποίηση του WebFortified μόνο για αυτήν την σελίδα.",
+    "description":"English: Click: disable\/enable WebFortified for this site.\n\nCtrl+click: disable WebFortified only on this page."
   },
   "popupBlockedRequestPrompt":{
     "message":"αποκλεισμένα αιτήματα",
@@ -292,7 +292,7 @@
     "description":"This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo":{
-    "message":"<p>Τα γενικά κοσμητικά φίλτρα είναι εκείνα τα κοσμητικά φίλτρα που εφαρμόζονται σε όλες τις ιστοσελίδες.<p>Αν και γίνεται αποτελεσματική διαχείρισή τους από το uBlock₀, τα γενικά κοσμητικά φίλτρα ενδέχεται να καταναλώσουν σημαντική μνήμη και να υπερφορτώσουν τη CPU σε μερικές ιστοσελίδες, ειδικά για μεγάλες μακροχρόνιες.<p>Η ενεργοποίηση αυτής της επιλογής θα εξαλείψει την υπερφόρτωση μνήμης και CPU στις ιστοσελίδες ως αποτέλεσμα της διαχείρισης γενικών κοσμητικών φίλτρων, ενώ ενδέχεται να μειώσει την κατανάλωση μνήμης του ίδιου του uBlock₀.<p>Προτείνεται η ενεργοποίηση αυτής της επιλογής στις λιγότερο ισχυρές συσκευές.",
+    "message":"<p>Τα γενικά κοσμητικά φίλτρα είναι εκείνα τα κοσμητικά φίλτρα που εφαρμόζονται σε όλες τις ιστοσελίδες.<p>Αν και γίνεται αποτελεσματική διαχείρισή τους από το WebFortified, τα γενικά κοσμητικά φίλτρα ενδέχεται να καταναλώσουν σημαντική μνήμη και να υπερφορτώσουν τη CPU σε μερικές ιστοσελίδες, ειδικά για μεγάλες μακροχρόνιες.<p>Η ενεργοποίηση αυτής της επιλογής θα εξαλείψει την υπερφόρτωση μνήμης και CPU στις ιστοσελίδες ως αποτέλεσμα της διαχείρισης γενικών κοσμητικών φίλτρων, ενώ ενδέχεται να μειώσει την κατανάλωση μνήμης του ίδιου του WebFortified.<p>Προτείνεται η ενεργοποίηση αυτής της επιλογής στις λιγότερο ισχυρές συσκευές.",
     "description":"Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader":{
@@ -368,8 +368,8 @@
     "description":"English: Export"
   },
   "1pExportFilename":{
-    "message":"τα-στατικά-ublock-φίλτρα-μου_{{datetime}}.txt",
-    "description":"English: my-ublock-static-filters_{{datetime}}.txt"
+    "message":"τα-στατικά-webfortified-φίλτρα-μου_{{datetime}}.txt",
+    "description":"English: my-webfortified-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges":{
     "message":"Εφαρμογή αλλαγών",
@@ -412,7 +412,7 @@
     "description":""
   },
   "rulesDefaultFileName":{
-    "message":"οι-δυναμικοί-ublock-κανόνες-μου_{{datetime}}.txt",
+    "message":"οι-δυναμικοί-webfortified-κανόνες-μου_{{datetime}}.txt",
     "description":"default file name to use"
   },
   "rulesHint":{
@@ -424,7 +424,7 @@
     "description":"English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt":{
-    "message":"Η λίστα σας με τα ονόματα κόμβων (host names) στα οποία το uBlock θα είναι απενεργοποιημένο. Μια καταχώρηση ανά γραμμή. Άκυρα ονόματα κόμβων θα παρακάμπτονται σιωπηλά.",
+    "message":"Η λίστα σας με τα ονόματα κόμβων (host names) στα οποία το WebFortified θα είναι απενεργοποιημένο. Μια καταχώρηση ανά γραμμή. Άκυρα ονόματα κόμβων θα παρακάμπτονται σιωπηλά.",
     "description":"English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport":{
@@ -436,8 +436,8 @@
     "description":"English: Export"
   },
   "whitelistExportFilename":{
-    "message":"λίστα-ublock-επιτρεπόμενων_{{datetime}}.txt",
-    "description":"English: my-ublock-whitelist_{{datetime}}.txt"
+    "message":"λίστα-webfortified-επιτρεπόμενων_{{datetime}}.txt",
+    "description":"English: my-webfortified-whitelist_{{datetime}}.txt"
   },
   "whitelistApply":{
     "message":"Εφαρμογή αλλαγών",
@@ -556,8 +556,8 @@
     "description":"Text for button to create a backup of all settings"
   },
   "aboutBackupFilename":{
-    "message":"το-ublock-αντίγραφο-ασφαλείας-μου_{{datetime}}.txt",
-    "description":"English: my-ublock-backup_{{datetime}}.txt"
+    "message":"το-webfortified-αντίγραφο-ασφαλείας-μου_{{datetime}}.txt",
+    "description":"English: my-webfortified-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton":{
     "message":"Επαναφορά από αρχείο...",
@@ -568,7 +568,7 @@
     "description":"English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm":{
-    "message":"Όλες οι ρυθμίσεις σας θα αντικατασταθούν χρησιμοποιώντας τα δεδομένα του αντιγράφου ασφαλείας που δημιουργήθηκε κατά ημ\/νία και ώρα: {{time}} και θα ακολουθήσει επανεκκίνηση του uBlock.",
+    "message":"Όλες οι ρυθμίσεις σας θα αντικατασταθούν χρησιμοποιώντας τα δεδομένα του αντιγράφου ασφαλείας που δημιουργήθηκε κατά ημ\/νία και ώρα: {{time}} και θα ακολουθήσει επανεκκίνηση του WebFortified.",
     "description":"Message asking user to confirm restore"
   },
   "aboutRestoreDataError":{
@@ -576,7 +576,7 @@
     "description":"Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm":{
-    "message":"Όλες οι ρυθμίσεις σας θα καταργηθούν και θα γίνει επανεκκίνηση του uBlock.\n\nΕπαναφορά του uBlock στις εργοστασιακές ρυθμίσεις;",
+    "message":"Όλες οι ρυθμίσεις σας θα καταργηθούν και θα γίνει επανεκκίνηση του WebFortified.\n\nΕπαναφορά του WebFortified στις εργοστασιακές ρυθμίσεις;",
     "description":"Message asking user to confirm reset"
   },
   "errorCantConnectTo":{
@@ -584,7 +584,7 @@
     "description":"English: Network error: unable to connect to {{url}}"
   },
   "subscriberConfirm":{
-    "message":"uBlock₀: Προσθήκη του παρακάτω URL στις προσαρμοσμένες λίστες φίλτρων σας;\n\nΤίτλος: \"{{title}}\"\nURL: {{url}}",
+    "message":"WebFortified: Προσθήκη του παρακάτω URL στις προσαρμοσμένες λίστες φίλτρων σας;\n\nΤίτλος: \"{{title}}\"\nURL: {{url}}",
     "description":"English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo":{
@@ -621,11 +621,11 @@
   },
   "fennecMenuItemBlockingOff":{
     "message":"απενεργοποιημένο",
-    "description":"Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description":"Firefox-specific: appears as 'WebFortified (off)'"
   },
   "docblockedPrompt1":{
-    "message":"Το uBlock₀ έχει αποτρέψει τη φόρτωση της παρακάτω σελίδας:",
-    "description":"English: uBlock₀ has prevented the following page from loading:"
+    "message":"Το WebFortified έχει αποτρέψει τη φόρτωση της παρακάτω σελίδας:",
+    "description":"English: WebFortified has prevented the following page from loading:"
   },
   "docblockedPrompt2":{
     "message":"Εξαιτίας του ακόλουθου φίλτρου",
