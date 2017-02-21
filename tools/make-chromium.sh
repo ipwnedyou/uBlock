@@ -2,13 +2,13 @@
 #
 # This script assumes a linux environment
 
-echo "*** uBlock0.chromium: Creating web store package"
-echo "*** uBlock0.chromium: Copying files"
+echo "*** WebFortified.chromium: Creating web store package"
+echo "*** WebFortified.chromium: Copying files"
 
 if [ "$1" = experimental ]; then
-    DES=dist/build/experimental/uBlock0.chromium
+    DES=dist/build/experimental/WebFortified.chromium
 else
-    DES=dist/build/uBlock0.chromium
+    DES=dist/build/WebFortified.chromium
 fi
 rm -rf $DES
 mkdir -p $DES
@@ -29,10 +29,10 @@ cp platform/chromium/*.json $DES/
 cp LICENSE.txt              $DES/
 
 if [ "$1" = all ]; then
-    echo "*** uBlock0.chromium: Creating package..."
+    echo "*** WebFortified.chromium: Creating package..."
     pushd $(dirname $DES/) > /dev/null
-    zip uBlock0.chromium.zip -qr $(basename $DES/)/*
+    zip WebFortified.chromium.zip -qr $(basename $DES/)/*
     popd > /dev/null
 fi
 
-echo "*** uBlock0.chromium: Package done."
+echo "*** WebFortified.chromium: Package done."
